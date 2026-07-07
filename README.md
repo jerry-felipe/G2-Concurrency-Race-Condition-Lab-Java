@@ -2,6 +2,8 @@
   <img src="G2-Concurrency-Race-Condition-Lab.png" alt="G2-Concurrency-Race-Condition-Lab" width="100%">
 </p>
 
+[![Java 25 CI](https://github.com/jerry-felipe/G2-Concurrency-Race-Condition-Lab-Java/actions/workflows/java-ci.yml/badge.svg)](https://github.com/jerry-felipe/G2-Concurrency-Race-Condition-Lab-Java/actions/workflows/java-ci.yml)
+
 # Java 25 Concurrency Race Condition Lab
 
 Laboratorio práctico en **Java 25 LTS** para entender uno de los problemas más críticos en sistemas concurrentes: las **Race Conditions** o condiciones de carrera.
