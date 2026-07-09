@@ -8,12 +8,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3GEE9P2kLsPccd5UbLYLGM9FSna" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -24,8 +24,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "V1",
     "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/jcrhi/Desktop/G2-Concurrency-Race-Condition-Lab-Java/Race-Condition-Problem/src/Main.java"
   }
 }]]></component>
