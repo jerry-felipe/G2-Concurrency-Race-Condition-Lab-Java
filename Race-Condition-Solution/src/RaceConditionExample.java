@@ -7,40 +7,26 @@ class BankAccount {
     this.accountNumber = accountNumber;
     this.balance = initialBalance;
   }
-  public synchronized boolean withdraw(int amount) {
+public synchronized boolean withdraw(int amount) {
 
-    System.out.println(Thread.currentThread().getName()
-            + " intenta retirar $" + amount);
-
-    if (balance >= amount) {
-
-      try {
-        Thread.sleep(200);
-      } catch (InterruptedException e) {
-        Thread.currentThread().interrupt();
-      }
-
-      balance -= amount;
-
-      System.out.println(Thread.currentThread().getName()
-              + " realizó el retiro. Saldo: $" + balance);
-
-      return true;
+    if (amount <= 0) {
+        throw new IllegalArgumentException(
+                "El monto del retiro debe ser mayor que cero"
+        );
     }
 
-    System.out.println(Thread.currentThread().getName()
-            + " retiro rechazado. Saldo insuficiente.");
+    if (balance >= amount) {
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+
+        balance = balance - amount;
+        return true;
+    }
 
     return false;
-  }
-
-  public int getBalance() {
-    return balance;
-  }
-
-  public String getAccountNumber(){
-    return accountNumber;
-  }
 }
 
 public class RaceConditionExample {
